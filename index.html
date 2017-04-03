@@ -77,7 +77,7 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="get" action="mailto:mulcahyjohn8@gmail.com" enctype="text/plain" onsubmit="reset" >
+								<form action="mail.php" method="POST" enctype="text/plain" onsubmit="reset" >
 									<div class="field half first">
 										<label for="name">Name</label>
 										<input type="text" name="name" id="name" />
@@ -92,23 +92,23 @@
 												<select name="demo-category" id="demo-category">
 													<option value="">-</option>
 													<option value="1">Graphic Design</option>
-													<option value="1">Web Design</option>
-													<option value="1">Software Design</option>
-													<option value="1">Videos</option>
-													<option value="1">Other Type of Work</option>
-													<option value="1">Collaborations</option>
-													<option value="1">Comments</option>
-													<option value="1">Insults</option>
-													<option value="1">Misc.</option>
+													<option value="2">Web Design</option>
+													<option value="3">Software Design</option>
+													<option value="4">Videos</option>
+													<option value="5">Other Type of Work</option>
+													<option value="6">Collaborations</option>
+													<option value="7">Comments</option>
+													<option value="8">Insults</option>
+													<option value="9">Misc.</option>
 												</select>
 											</div>
 										</div>
 										<div class="field half first">
-											<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+											<input type="radio" id="demo-priority-low" name="demo-priority" value="low" checked>
 											<label for="demo-priority-low">Low</label>
 										</div>
 										<div class="field half">
-											<input type="radio" id="demo-priority-high" name="demo-priority">
+											<input type="radio" id="demo-priority-high" name="demo-priority" value="high">
 											<label for="demo-priority-high">High</label>
 										</div>
 										<div class="field half first">
