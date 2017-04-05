@@ -1374,13 +1374,14 @@
 				}
 
 			#header .logo {
-				width: auto;
-				height: auto;
+				width: 4.75 rem;
+				height: 4.75 rem;
 				line-height: 4.75rem;
 			}
 
 				#header .logo .icon:before {
-					font-size: 1.75rem;
+				width: auto;
+				height: auto;
 				}
 
 			#header .content .inner {
